@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TUO-USERNAME/NOME-REPOSITORY
+  repo: emandia/dianae
   branch: main
 
 media_folder: "images"
