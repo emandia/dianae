@@ -1,0 +1,135 @@
+DIANAE — RESTYLING MINIMAL & MODERN / MOBILE FIRST
+22 ottobre 2026
+
+CONTENUTO DELLO ZIP
+Questa è la versione ridisegnata del sito statico DIANAE, pronta da caricare in una
+piattaforma di hosting statico che accetti HTML/CSS/JS.
+Tutte le pagine esistenti (22 file HTML), le lingue DE/IT/EN e i media originari
+sono presenti. Nessuna immagine di persone, prodotti o paesaggi è stata sostituita.
+Le immagini originali (40 file .webp/.png) sono identiche, byte per byte, a
+quelle nello ZIP fornito dal proprietario.
+
+MIGLIORAMENTI
+- Stile minimal moderno: fondi chiari, tipografia editoriale, colori più sobri,
+  sezioni ampie, fotografie in evidenza, schede riorganizzate.
+- Layout mobile ottimizzato da 320 px; menu con pulsante e stato accessibile,
+  navigazione adatta al touch, pulsanti grandi, campi formulario >=16px.
+- Responsive anche per tablet e desktop; nessuna libreria esterna aggiunta.
+- Preferenza utente per movimento ridotto rispettata; immagini WebP responsive
+  e attributi lazy loading conservati.
+- Storia italiana del minibus riveduta in forma documentaristica, con capitoli
+  navigabili; nomi, luoghi, persone ed eventi non sono stati inventati.
+  Le narrazioni DE e EN restano sostanzialmente quelle precedenti.
+- Nomi delle voci di navigazione sostenibilità localizzati DE/IT/EN.
+
+DEPLOYBASE / HOSTING STATICO
+1) Decomprimi lo ZIP.
+2) Carica il CONTENUTO estratto nella radice del sito (non la cartella
+   contenitore): index.html deve essere nella radice accanto ad assets/, it/, en/.
+3) Assicurati che l'hosting distribuisca file statici e supporti gli URL in forma
+   /it/, /en/ e i percorsi con index.html nelle rispettive cartelle.
+4) Dopo la pubblicazione verifica da telefono reale menu, lingue, immagini,
+   collegamenti, pagine storia, moduli e HTTPS.
+
+Questo pacchetto non contiene server/API e non è stato pubblicato da questa
+sessione. La compatibilità con configurazioni specifiche di Deploybase,
+sconosciute in questo ambiente, deve essere confermata con una prova sul
+tuo progetto reale. Non servono npm, database o compilazione per la parte
+statica.
+
+FORM CONTATTI E SONDAGGIO
+Il modulo contatti prepara/copia un messaggio localmente, NON lo spedisce.
+Per l'invio reale serve un backend/servizio di recapito configurato con
+protezione antispam. Il sondaggio "sustainable?" richiede un'API server
+separata: senza di essa non salva voti sul server.
+L'indirizzo pubblicato rimane info(at)dianae.ch, senza mailto automatico.
+
+SEO E DATI
+Canonical, hreflang, sitemap e dati strutturati originari mantengono
+https://dianae.ch/ come dominio preferito. Modificali solo se cambia
+il dominio canonico. Metadati e contenuti sono stati conservati.
+Dati sulle degustazioni, valori di caffeina e rapporto di laboratorio sono
+dichiarazioni presenti nel materiale originale, non verificate
+scientificamente durante questa revisione.
+
+VERIFICHE TECNICHE
+- 22 HTML, heading principale e metadati viewport.
+- Collegamenti e frammenti locali; tutte le immagini referenziate.
+- Validità sintattica JavaScript e JSON-LD.
+- Controllo di layout su più schermate fino a 320px tramite Chromium offline
+  e prove menu mobile. Controllo finale sul dispositivo reale consigliato.
+
+FILE DI STILE
+/assets/style.css = stile originale mantenuto come base
+/assets/modern.css = restyling responsive sovrapposto
+/assets/site.js = menu mobile leggero, senza dipendenze
+
+
+AGGIORNAMENTO — FOTOGRAFIE REALI MOKA BIALETTI (22 OTTOBRE 2026)
+È stata integrata una fotografia autentica inviata dal proprietario,
+dalla serie scattata il 29.11.2022 (selezione vicino a 20221129_145006.jpg),
+con ottimizzazione discreta già concordata: confezione DIANAE Cascara J,
+tazza e moka Bialetti. Nessuna immagine è generata da IA.
+
+DOVE SI TROVA
+- Home tedesca / e pagina Preparazioni /produktideen/
+- Home italiana /it/ e pagina Preparazioni /it/possibili-prodotti/
+- Home inglese /en/ e pagina Preparations /en/possible-products/
+
+Nelle pagine Preparazioni la foto reale sostituisce la precedente figura
+illustrativa generata con IA. Nelle home è inserita in un blocco dedicato
+vicino ai tre prodotti; le immagini delle persone e il racconto del
+minibus non sono stati modificati.
+
+ASSET WEBP AGGIUNTI
+/assets/dianae-moka-bialetti-560.webp (desktop leggero)
+/assets/dianae-moka-bialetti-960.webp (desktop normale)
+/assets/dianae-moka-bialetti-1440.webp (alta densità)
+/assets/dianae-moka-bialetti-mobile-480.webp (mobile)
+/assets/dianae-moka-bialetti-mobile-800.webp (mobile alta densità)
+
+Markup <picture> responsive con srcset, selezione dell'immagine corretta
+per mobile e desktop, caricamento lazy e testo alternativo in DE/IT/EN.
+Le regole di presentazione si trovano in fondo ad /assets/modern.css.
+Gli asset fotografici preesistenti rimangono nel pacchetto.
+
+VERIFICA DI QUESTO AGGIORNAMENTO
+- I file WebP sono codificati, leggibili e referenziati da 6 pagine.
+- Verificate sintatticamente le pagine HTML e l'esistenza dei media.
+- Il test visivo in browser locale non è stato possibile in questo ambiente;
+  controlla resa e ritaglio sul tuo telefono dopo il deploy.
+- La foto ritrae una moka nel contesto della bevanda, ma non documenta
+  un processo di estrazione specifico.
+
+AGGIORNAMENTO: CASCARA ESPRESSO — FOTO REALI 2022
+- Home DE/IT/EN: nuova fotografia della confezione DIANAE J accanto alla macchina espresso Solis nella scheda Cascara macinata.
+- Preparazioni DE/IT/EN: sezione Cascara Espresso con montaggio editoriale di due fotografie originali (confezione/macchina + estrazione), art direction mobile con foto di estrazione singola e dettaglio reale del portafiltro.
+- File immagine ottimizzati in formato WebP: prefisso assets/dianae-cascara-espresso-.
+- Autenticità: elaborazione fotografica standard (ritaglio, regolazioni tono/nitidezza e montaggio con separazione), nessun contenuto visivo sintetico.
+- Pubblicazione: estrarre tutto il contenuto di questo ZIP nella radice del sito statico su Deploybase, mantenendo la cartella assets e la struttura delle lingue.
+
+
+AGGIORNAMENTO FINALE — CASCARA LEMON
+- Inserita fotografia reale della bottiglia DIANAE Cascara Lemon e biciclette nelle sezioni prodotto e negli inviti della home di tutte e tre le lingue.
+- File WebP ottimizzati: assets/dianae-cascara-lemon-bikes-480.webp, -800.webp e -1200.webp.
+- Caricare il contenuto di questo archivio nella cartella radice del sito; assicurarsi che la cartella assets sia pubblicamente raggiungibile come /assets/.
+- Immagini originali precedenti conservate. Nessuna modifica alla storia del minibus.
+
+
+AGGIORNAMENTO MULTILINGUA — 22 ottobre 2026
+Il sito comprende ora 5 lingue: tedesco (radice /), italiano (/it/), inglese (/en/),
+francese (/fr/) e spagnolo (/es/).
+Sono state create 14 pagine nuove (7 FR e 7 ES), incluso il racconto completo
+del minibus tradotto fedelmente dal testo inglese di origine. Il selettore lingua
+mantiene la pagina equivalente, e le 35 pagine hanno canonical + hreflang.
+Sitemap aggiornata, immagini reali/WebP preservate.
+
+PUBBLICAZIONE: estrarre lo ZIP e caricare *il contenuto* nella directory
+pubblica di Deploybase (index.html, assets/, fr/, es/, etc.).
+I percorsi sono assoluti (/assets/...), pertanto il sito richiede la pubblicazione
+alla radice del dominio. Verificare il corretto caricamento delle pagine /fr/
+e /es/, il menu da telefono, la lingua corrispondente nei link e i moduli.
+Il modulo contatto prepara testo da copiare e non invia e-mail.
+Il sondaggio della pagina Sostenibilità non raccoglie voti sul server.
+La compatibilità specifica con i limiti del piano gratuito Deploybase deve
+essere verificata dall'utente nei requisiti correnti della piattaforma.

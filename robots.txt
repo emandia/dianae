@@ -1,4 +1,29 @@
 User-agent: *
 Allow: /
+Disallow: /errors/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /errors/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /errors/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /errors/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /errors/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /errors/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /errors/
 
 Sitemap: https://dianae.ch/sitemap.xml
